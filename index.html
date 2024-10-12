@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cardiology Product</title>
+    <title>CardioFitAI - Research Project</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#solutions">Solutions</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">CardioFitAI</a>
+                <ul class="nav-links">
+                    <li><a href="#project-scope">Project Scope</a></li>
+                    <li><a href="#methodology">Methodology</a></li>
+                    <li><a href="#results">Results</a></li>
+                    <li><a href="#diet-recommendation">Diet Recommendation</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <section class="hero">
-        <img src="path_to_your_image.png" alt="Cardiology Image" class="hero-image">
-        <div class="hero-text">
-            <h1>We are transforming cardiology through personalized services and cutting-edge technology.</h1>
-            <a href="#contact" class="cta-button">Contact Us</a>
+    <section id="project-scope" class="section">
+        <div class="container">
+            <h1>Project Scope</h1>
+            <p>The aim of this research is to obtain a 12-lead ECG signal from the palms, focusing on non-invasive and easy-to-use technology. The Lead I signal is acquired using three electrodes on the palms, and deep learning techniques are utilized to reconstruct the remaining eleven ECG signals. These reconstructed signals are used to diagnose up to 20 cardiac diseases.</p>
         </div>
     </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>At <strong>CardioLine</strong>, we aim to revolutionize the way cardiology services are delivered, providing
-            innovative solutions that cater to the needs of both patients and professionals.</p>
-        <a href="#about" class="learn-more">Learn More</a>
+    <section id="methodology" class="section">
+        <div class="container">
+            <h1>Methodology</h1>
+            <p>The primary ECG lead, Lead I, is obtained from the palms using disposable electrodes. A modified attention U-Net deep learning model is used to reconstruct the remaining 11 ECG leads. The entire 12-lead ECG is then used as input for a 1D convolutional neural network (CNN) model to diagnose 20 different cardiac diseases. This approach allows for rapid, accurate, and cost-effective cardiac screening without hospital visits.</p>
+        </div>
     </section>
 
-    <section id="products">
-        <h2>Our Products</h2>
-        <ul>
-            <li><strong>Portable ECG Device:</strong> Measure your ECG anywhere, anytime with our user-friendly device.</li>
-            <li><strong>Mobile App:</strong> Connect your device to our mobile app to visualize and monitor your ECG data.</li>
-        </ul>
-        <a href="#products" class="learn-more">View All Products</a>
+    <section id="results" class="section">
+        <div class="container">
+            <h1>Results</h1>
+            <p>Using the reconstructed 12-lead ECG, the model achieved high accuracy in diagnosing multiple cardiac conditions. The deep learning model provided a viable solution for early cardiac diagnosis, thereby helping to identify patients who need immediate medical attention.</p>
+        </div>
     </section>
 
-    <section id="solutions">
-        <h2>Cutting-Edge Solutions</h2>
-        <p>We are at the forefront of cardiology technology, utilizing advanced data analytics and artificial intelligence to help doctors make accurate diagnoses.</p>
-        <a href="#solutions" class="learn-more">Learn More</a>
+    <section id="diet-recommendation" class="section">
+        <div class="container">
+            <h1>Diet Recommendation Component</h1>
+            <p>Based on the cardiac diagnosis and other health data, including blood tests and other medical reports, the system provides personalized diet recommendations. This is to ensure the user can manage their health effectively by addressing both their cardiac and general nutritional needs.</p>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have any questions? Reach out to us via our contact form, and we’ll be happy to assist you.</p>
-        <a href="#contact" class="learn-more">Contact Us</a>
+    <section id="about" class="section">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>CardioFitAI is a research project conducted in the final year of our software engineering program. It aims to bring non-invasive, affordable cardiac care to homes. The project involves expertise in hardware development, deep learning, and healthcare.</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 CardioLine. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 CardioFitAI | All Rights Reserved</p>
+        </div>
     </footer>
-
 </body>
-
 </html>
