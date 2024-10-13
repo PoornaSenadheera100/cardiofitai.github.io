@@ -96,6 +96,43 @@ body {
   display: block;
 }
 
+.downloads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.download-item {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.download-item h2 {
+  font-size: 1.25rem;
+  color: #00796b;
+  margin-bottom: 0.5rem;
+}
+
+.download-item p {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.download-item a {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.download-item a:hover {
+  color: #004d40;
+}
+
 h1 {
   font-weight: 700;
   margin-bottom: 1.5rem;
