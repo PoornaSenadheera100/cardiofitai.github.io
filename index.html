@@ -16,7 +16,7 @@
         <div class="container">
           <a href="#" class="logo">CardioFitAI</a>
           <ul class="nav-links">
-            <!-- <li><a href="#project-scope">Project Scope</a></li> -->
+            <li><a href="#home">Home</a></li>
             <li class="dropdown">
               <a href="#project-scope" class="dropbtn">Project Scope</a>
               <ul class="dropdown-content">
@@ -33,9 +33,9 @@
               </ul>
             </li>
             <li><a href="#milestones">Milestones</a></li>
-            <li><a href="#results">Results</a></li>
-            <li><a href="#diet-recommendation">Diet Recommendation</a></li>
-            <li><a href="#about">About Us</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <!-- <li><a href="#diet-recommendation">Diet Recommendation</a></li> -->
+            <li><a href="#contact-us">Contact Us</a></li>
           </ul>
         </div>
       </nav>
@@ -51,6 +51,13 @@
           learning techniques are utilized to reconstruct the remaining eleven
           ECG signals. These reconstructed signals are used to diagnose up to 20
           cardiac diseases.
+        </p>
+        <p>
+          Based on the cardiac diagnosis and other health data, including blood
+          tests and other medical reports, the system provides personalized diet
+          recommendations. This is to ensure the user can manage their health
+          effectively by addressing both their cardiac and general nutritional
+          needs.
         </p>
       </div>
 
@@ -79,7 +86,21 @@
 
       <div id="methodology" class="container">
         <h2>Methodology</h2>
-        <p>Description of Methodology related to the project scope.</p>
+        <p>
+          The primary ECG lead, Lead I, is obtained from the palms using
+          disposable electrodes. A modified attention U-Net deep learning model
+          is used to reconstruct the remaining 11 ECG leads. The entire 12-lead
+          ECG is then used as input for a 1D convolutional neural network (CNN)
+          model to diagnose 20 different cardiac diseases. This approach allows
+          for rapid, accurate, and cost-effective cardiac screening without
+          hospital visits.
+        </p>
+        <p>
+          Using the reconstructed 12-lead ECG, the model achieved high accuracy
+          in diagnosing multiple cardiac conditions. The deep learning model
+          provided a viable solution for early cardiac diagnosis, thereby
+          helping to identify patients who need immediate medical attention.
+        </p>
       </div>
 
       <div id="technologies-used" class="container">
@@ -91,15 +112,7 @@
     <section id="milestones" class="section">
       <div class="container">
         <h1>Milestones</h1>
-        <p>
-          The primary ECG lead, Lead I, is obtained from the palms using
-          disposable electrodes. A modified attention U-Net deep learning model
-          is used to reconstruct the remaining 11 ECG leads. The entire 12-lead
-          ECG is then used as input for a 1D convolutional neural network (CNN)
-          model to diagnose 20 different cardiac diseases. This approach allows
-          for rapid, accurate, and cost-effective cardiac screening without
-          hospital visits.
-        </p>
+        <p>Detailed view of Milestones of the project scope.</p>
       </div>
     </section>
 
@@ -165,34 +178,21 @@
       </div>
     </section>
 
-    <section id="results" class="section">
-      <div class="container">
-        <h1>Results</h1>
-        <p>
-          Using the reconstructed 12-lead ECG, the model achieved high accuracy
-          in diagnosing multiple cardiac conditions. The deep learning model
-          provided a viable solution for early cardiac diagnosis, thereby
-          helping to identify patients who need immediate medical attention.
-        </p>
-      </div>
-    </section>
-
-    <section id="diet-recommendation" class="section">
-      <div class="container">
-        <h1>Diet Recommendation Component</h1>
-        <p>
-          Based on the cardiac diagnosis and other health data, including blood
-          tests and other medical reports, the system provides personalized diet
-          recommendations. This is to ensure the user can manage their health
-          effectively by addressing both their cardiac and general nutritional
-          needs.
-        </p>
-      </div>
-    </section>
-
-    <section id="about" class="section">
+    <section id="about-us" class="section">
       <div class="container">
         <h1>About Us</h1>
+        <p>
+          CardioFitAI is a research project conducted in the final year of our
+          software engineering program. It aims to bring non-invasive,
+          affordable cardiac care to homes. The project involves expertise in
+          hardware development, deep learning, and healthcare.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact-us" class="section">
+      <div class="container">
+        <h1>Contact Us</h1>
         <p>
           CardioFitAI is a research project conducted in the final year of our
           software engineering program. It aims to bring non-invasive,
