@@ -101,6 +101,13 @@ h1 {
   color: #00796b;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: large;
+  margin-bottom: 1.5rem;
+  color: #00796b;
+}
+
 p {
   margin-bottom: 1.5rem;
 }
