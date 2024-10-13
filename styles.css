@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #00796b;
+  background: #790000;
 }
 
 .logo {
@@ -113,7 +113,7 @@ body {
 
 .download-item h2 {
   font-size: 1.25rem;
-  color: #00796b;
+  color: #b50000;
   margin-bottom: 0.5rem;
 }
 
@@ -123,27 +123,27 @@ body {
 }
 
 .download-item a {
-  color: #00796b;
+  color: #b50000;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .download-item a:hover {
-  color: #004d40;
+  color: #790000;
 }
 
 h1 {
   font-weight: 700;
   margin-bottom: 1.5rem;
-  color: #00796b;
+  color: #790000;
 }
 
 h2 {
   font-weight: 700;
   font-size: medium;
   margin-bottom: 1.5rem;
-  color: #00796b;
+  color: #b50000;
 }
 
 p {
@@ -153,7 +153,7 @@ p {
 footer {
   text-align: center;
   padding: 2rem;
-  background: #004d40;
+  background: #520000;
   color: #fff;
 }
 
