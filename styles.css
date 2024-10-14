@@ -18,8 +18,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   background: #790000;
+  height: 60px;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .logo {
@@ -31,6 +39,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
+  margin-left: auto;
 }
 
 .nav-links li {
