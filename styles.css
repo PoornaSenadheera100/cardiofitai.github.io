@@ -264,6 +264,38 @@ footer {
   font-size: 0.7rem;
 }
 
+.research-gaps {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.gap-item {
+  text-align: center;
+  width: 30%;
+}
+
+.gap-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .research-gaps {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gap-item {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
