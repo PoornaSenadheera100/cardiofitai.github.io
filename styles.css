@@ -155,6 +155,10 @@ h2 {
   color: #b50000;
 }
 
+h6 {
+  margin-bottom: 0.7rem;
+}
+
 p {
   margin-bottom: 1.5rem;
   text-align: justify;
@@ -254,6 +258,10 @@ footer {
 
 .completed {
   background-color: #790000;
+}
+
+.references {
+  font-size: 0.7rem;
 }
 
 @media (max-width: 768px) {
