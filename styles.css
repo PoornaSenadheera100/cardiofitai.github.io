@@ -282,6 +282,21 @@ footer {
   margin-bottom: 1rem;
 }
 
+.methodology-content {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.methodology-image {
+  width: 45%;
+  margin-right: 2rem;
+}
+
+.methodology-text {
+  width: 55%;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -293,6 +308,13 @@ footer {
   .gap-item {
     width: 100%;
     margin-bottom: 2rem;
+  }
+  .methodology-content {
+    flex-direction: column;
+  }
+  .methodology-image,
+  .methodology-text {
+    width: 100%;
   }
 }
 

@@ -244,20 +244,47 @@
 
       <div id="methodology" class="container">
         <h2>Methodology</h2>
+        <div class="methodology-content">
+          <img
+            src="https://poornasenadheera100.github.io/cardiofitai.github.io/assets/system_diagram.png"
+            alt="Methodology Diagram"
+            class="methodology-image"
+          />
+          <div class="methodology-text">
+            <p>
+              The proposed system consists of four main components:
+              <ol>
+                <li>Acquisition of ECG signal from palm-based approach.</li>
+                <li>Reconstructing remaining 11 ECG leads with high level of accuracy from lead I ECG signal.</li>
+                <li>Identification of critical cardiac diseases, allowing for informed discussion.</li>
+                <li>Proposing dietary advice based on patient health records.</li>
+              </ol>
+            </p>
+            <p>
+              This system diagram represents a healthcare platform designed to
+              capture and analyze user health data, such as ECG signals and
+              medical reports, through a smart tablet interface. Users can scan
+              their palms to acquire ECG readings. The collected data is sent to
+              Firebase, which serves as the central database, where it is
+              processed by deep learning models hosted on a Flask server. The
+              system includes two key AI models: CardioFit’s Modified Attention
+              U-net for reconstructing multi-lead ECG signals from single-lead
+              data and a CNN Baseline Model for diagnosing cardiac diseases.
+            </p>
+            
+          </div>
+          
+        </div>
         <p>
-          The primary ECG lead, Lead I, is obtained from the palms using
-          disposable electrodes. A modified attention U-Net deep learning model
-          is used to reconstruct the remaining 11 ECG leads. The entire 12-lead
-          ECG is then used as input for a 1D convolutional neural network (CNN)
-          model to diagnose 20 different cardiac diseases. This approach allows
-          for rapid, accurate, and cost-effective cardiac screening without
-          hospital visits.
-        </p>
-        <p>
-          Using the reconstructed 12-lead ECG, the model achieved high accuracy
-          in diagnosing multiple cardiac conditions. The deep learning model
-          provided a viable solution for early cardiac diagnosis, thereby
-          helping to identify patients who need immediate medical attention.
+          In addition to medical data analysis, the platform integrates with
+          AWS Amazon Textract to extract relevant information from scanned
+          medical reports. This information is combined with ECG data, BMI,
+          and dietary advice to provide comprehensive health insights to
+          users. The system generates notifications to alert loved ones or
+          paramedics in case of emergencies, while also offering
+          personalized medicine reminders powered by GPT-4. Through this
+          integrated approach, the system ensures timely interventions,
+          accurate diagnosis, and user-friendly health management.
         </p>
       </div>
 
