@@ -297,6 +297,24 @@ footer {
   width: 55%;
 }
 
+.technologies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.technology-item {
+  text-align: center;
+  width: 100px;
+}
+
+.technology-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
